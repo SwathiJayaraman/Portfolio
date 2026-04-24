@@ -1,0 +1,82 @@
+﻿/*diff settings for phone*/
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+/*Settings for body, bigger than the main section*/
+body {
+    background-color: #5DA9E9;
+    font-size: 1.2rem;
+    font-family: Cambria;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+}
+/*settings for h1, bigger font size, different font style used*/
+h1 {
+    background-color: #CEEDDB;
+    font-size: 2.5rem;
+    font-family: Cooper;
+    line-height: 2.5rem;
+}
+/*settings for h2, big font size and different font style is used*/
+h2 {
+    background-color: #85BAA1;
+    color: #65012E;
+    font-size: 2rem;
+    font-family: Cooper;
+    line-height: 2rem;
+}
+/*settings for h3*/
+h3 {
+    color: #FCE9DA;
+    font-size: 1.7rem;
+    font-family: Cooper;
+    line-height: 1.8rem;
+}
+.question {
+    font-weight: 600;
+    color: #65012E;
+    font-size: 1.5rem;
+    font-family: Cooper;
+    line-height: 2rem;
+}
+.answers {
+    margin-bottom: 1rem;
+    font-weight:600;
+    font-family: Cambria;
+}
+.answers label {
+    display: block;
+}
+#submit {
+    font-family: Cambria   ;
+    font-size: 20px;
+    background-color: #85BAA1;
+    color: #65012E;
+    border: 0;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+    #submit:hover {
+        background-color: #3a8;
+    }
